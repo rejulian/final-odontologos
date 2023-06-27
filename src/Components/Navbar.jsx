@@ -34,7 +34,7 @@ const Navbar = () => {
           <li key={link.name}><Link  className='link' to={link.path}>{link.name}</Link></li>
         ))}
       </ul>
-      <button onClick={handleCambioColor}>{theme.color === 'white' ? '🌚' : '🌞'}</button>
+      <button onClick={handleCambioColor}>{theme.color === 'light' ? '🌚' : '🌞'}</button>
     </nav>
   )
 }

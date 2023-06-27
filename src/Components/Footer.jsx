@@ -13,10 +13,10 @@ const Footer = () => {
         <img className='dh-logo' src={DH} alt="Digital House logo" />
       </div>
       <div className='right'>
-        <img className='icon' src={facebook} alt="" />
-        <img className='icon' src={instagram} alt="" />
-        <img className='icon' src={whatsapp} alt="" />
-        <img className='icon' src={tiktok} alt="" />
+        <img className='icon' src={facebook} alt="Facebook logo" />
+        <img className='icon' src={instagram} alt="Instagram logo" />
+        <img className='icon' src={whatsapp} alt="Whatsapp logo" />
+        <img className='icon' src={tiktok} alt="Tiktok logo" />
       </div>
     </footer>
   )
