@@ -8,7 +8,7 @@ const Navbar = () => {
 
 
   const handleCambioColor = () => {
-    const nuevoColor = theme.color === 'white' ? '#212121' : 'white';
+    const nuevoColor = theme.color === 'light' ? 'dark' : 'light';
     cambiarColor(nuevoColor);
   };
 

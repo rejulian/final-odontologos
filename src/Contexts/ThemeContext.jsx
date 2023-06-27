@@ -1,7 +1,7 @@
 import React, { createContext, useReducer } from 'react';
 
 const initialState = {
-  color: 'white',
+  color: 'light',
 };
 
 const themeReducer = (state, action) => {

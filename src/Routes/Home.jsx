@@ -15,7 +15,7 @@ const Home = () => {
     },[])
 
   return (
-    <main style={{backgroundColor:theme.color}}>
+    <main className={theme.color}>
         <ul className='container'>
             {dentists.map(dentist=>(
                 <li key={dentist.id}><Card dentist={dentist}/></li>

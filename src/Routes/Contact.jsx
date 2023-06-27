@@ -6,8 +6,8 @@ const Contact = () => {
   const { theme } = useContext(ThemeContext);
 
   return (
-    <main style={{ backgroundColor: theme.color }}>
-      <h1 className='title' style={{color: theme.color === 'white' ? 'black' : 'white'}}>Formulario de contacto</h1>
+    <main className={theme.color}>
+      <h1 className={`title ${theme.color}`} >Formulario de contacto</h1>
       <Form />
     </main>
   )

@@ -4,6 +4,16 @@
   padding: 0;
 }
 
+.dark{
+  background-color: #212121;
+  color: white;
+}
+
+.light{
+  background-color: white;
+  color: black;
+}
+
 body{
   position: relative;
   padding-bottom: 130px;

@@ -16,7 +16,7 @@ const Detail = () => {
   }, []);
 
   return (
-    <main style={{ backgroundColor: theme.color, color: theme.color === 'white' ? 'black' : 'white' }} className='detail'>
+    <main className={`detail ${theme.color}`}>
       <div className='detail'>
         <h1>Informacion de dentista N° {id}</h1>
         <p><b>Name:</b> {dentist.name}</p>
