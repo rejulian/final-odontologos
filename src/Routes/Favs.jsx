@@ -24,11 +24,13 @@ const Favs = () => {
 
   return (
     <main className={theme.color}>
-      <ul className='container'>
-      {dentistList.map((dentist) => (
-        <li key={dentist.id}><Card key={dentist.id} dentist={dentist}  handleRemoveCard={handleRemoveCard}/></li>
-      ))}
-      </ul>
+      {dentistList.length > 0 ? 
+        <ul className='container'>
+          {dentistList.map((dentist) => (
+            <li key={dentist.id}><Card key={dentist.id} dentist={dentist}  handleRemoveCard={handleRemoveCard}/></li>
+          ))}
+        </ul> : <h1>Ups! Parece que no agregaste ningun dentista a favoritos ❤</h1>
+      }
     </main>
   );
 };
